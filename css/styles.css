@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 /* Global styles
 ------------------------------------*/
 html{
@@ -6,7 +8,9 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
-
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 body{
     color: #343434;
